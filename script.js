@@ -1,4 +1,4 @@
-const pastebinUrl = "https://pastebin.com/raw/QacHwtyw"; // Remplace "TON_CODE" par le code de ton Pastebin
+const pastebinUrl = "https://pastebin.com/raw/QacHwtyw";// Remplace "TON_CODE" par le code de ton Pastebin
 
 async function fetchLinks() {
     try {
