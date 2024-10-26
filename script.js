@@ -3,7 +3,12 @@ const pastebinUrl = "https://pastebin.com/raw/TON_CODE"; // Remplace "TON_CODE" 
 async function fetchLinks() {
     try {
         const response = await fetch(pastebinUrl);
+        if (!response.ok) {
+            throw new Error("Erreur HTTP " + response.status);
+        }
+
         const data = await response.text();
+        console.log("Données récupérées : ", data); // Affiche les données récupérées
         const linkContainer = document.getElementById("link-container");
         linkContainer.innerHTML = ""; // Vider le contenu de chargement
 
@@ -13,23 +18,20 @@ async function fetchLinks() {
 
         linksArray.forEach(item => {
             const [name, url] = item.split('=').map(part => part.trim());
-            const row = document.createElement("tr");
-            const nameCell = document.createElement("td");
-            const linkCell = document.createElement("td");
+            const listItem = document.createElement("li");
 
-            nameCell.innerText = name;
             const linkElement = document.createElement("a");
             linkElement.href = url;
-            linkElement.innerText = "Ouvrir";
+            linkElement.innerText = name; // Le nom du lien
             linkElement.target = "_blank"; // Ouvrir le lien dans un nouvel onglet
-            linkCell.appendChild(linkElement);
-
-            row.appendChild(nameCell);
-            row.appendChild(linkCell);
-            linkContainer.appendChild(row);
+            
+            listItem.appendChild(linkElement);
+            linkContainer.appendChild(listItem);
         });
     } catch (error) {
         console.error("Erreur lors du chargement des liens :", error);
+        const linkContainer = document.getElementById("link-container");
+        linkContainer.innerHTML = "Erreur de chargement. Vérifiez la console.";
     }
 }
 
