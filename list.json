@@ -1,3 +1,4 @@
-{
-    "tt15474916": "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/2160p/video.m3u8&audio=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/audio/31e64d80-e2ed-4ea7-97aa-771ac914e0c2/2/audio.m3u8",
-}
+[
+	["tt15474916"] = "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/2160p/video.m3u8&audio=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/audio/31e64d80-e2ed-4ea7-97aa-771ac914e0c2/2/audio.m3u8",
+	["tt1464335"] = "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/e6d5720a-3417-46b0-a113-62c3fc1e3931/2160p/video.m3u8&audio=https://cdn-1.movea.tv/e6d5720a-3417-46b0-a113-62c3fc1e3931/audio/ad8aa819-92c8-4801-ba46-d17b5df355cf/2/audio.m3u8",
+]
