@@ -1,4 +1,10 @@
-{
-   {"tt15474916", "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/2160p/video.m3u8&audio=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/audio/31e64d80-e2ed-4ea7-97aa-771ac914e0c2/2/audio.m3u8"},
-   {"tt6718170", "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/85b56d86-1dc9-4d79-a80d-a35d3ab361bd/2160p/video.m3u8&audio=https://cdn-1.movea.tv/85b56d86-1dc9-4d79-a80d-a35d3ab361bd/audio/ad72f12f-1498-49b1-b73c-9880c08e2df2/2/audio.m3u8"},
-}
+[
+    {
+        "id": "tt15474916",
+        "url": "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/2160p/video.m3u8&audio=https://cdn-1.movea.tv/ec05d90b-7ef8-4194-9d89-59e84692b6e8/audio/31e64d80-e2ed-4ea7-97aa-771ac914e0c2/2/audio.m3u8"
+    },
+    {
+        "id": "tt6718170",
+        "url": "https://johnny192837.github.io/movie/?video=https://cdn-1.movea.tv/85b56d86-1dc9-4d79-a80d-a35d3ab361bd/2160p/video.m3u8&audio=https://cdn-1.movea.tv/85b56d86-1dc9-4d79-a80d-a35d3ab361bd/audio/ad72f12f-1498-49b1-b73c-9880c08e2df2/2/audio.m3u8"
+    }
+]
